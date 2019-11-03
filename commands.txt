@@ -1,0 +1,16 @@
+##Basic Linux commands##
+##Without these termux can't be operated##
+#1.  cd - Used to navigate to and from folders.
+## usage cd 'folder name' , "cd --"  ----- to return to home folder, "cd -" to go back 1 folder.
+#2. ls - used to display content of folder.
+##usage - after typing cd 'folder name' type ls to see content. In default home folder type ls to see content
+#3. cat - used to see content of any file.
+##usage - type cat 'filename'
+#4. wget - used to download files.
+##usage - wget 'url' [press enter]
+#5. git - used to clone repositories (GitHub and gitlab only)
+##usage: git clone https://www.github.com/shasankp-create/THEEASYPROJECT.git
+(URL)
+#6. Bash - used to run .sh files.
+##usage: bash 'ex.sh' or ./ex.sh
+
