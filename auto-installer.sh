@@ -15,7 +15,7 @@ echo If it fails! You can retry or contact me for help
 	pkg install unstable-repo -y
 	
 
-	pkg install git -y
+	
 
 	pkg install termux-tools -y
 
