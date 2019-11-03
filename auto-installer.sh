@@ -8,11 +8,11 @@ echo Caution!: A strong internet connection is needed so as to prevent transfer 
 echo If it fails! You can retry or contact me for help 
 {
 {
-	pkg install metasploit  -y
+	pkg install unstable-repo  -y
 
 	pkg install x11-repo -y
 
-	pkg install unstable-repo -y
+	pkg install metasploit -y
 	
 
 	
