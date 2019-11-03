@@ -37,10 +37,10 @@ echo checking sensors......
 	echo so ^X means CTRL+X
 	}
 	{
-echo use the command bash "example.sh" to run any .sh file
-echo use cd to navigate forward in a directory and cd - to go back 1 directory(folder marked in purple color)
+echo use the command bash example.sh to run any .sh file
+echo use cd to navigate forward in a directory and cd - to go back 1 directoy folder marked in purple color
 echo use cd -- to return to home dirertory or use cd $HOME command
-echo use the command "ls" to display the content of a directory including home directory.
+echo use the command ls to display the content of a directory including home directory.
 echo more commands in command-list.txt
 echo use nano command.txt or cat command.txt to open it.
 echo Regards
