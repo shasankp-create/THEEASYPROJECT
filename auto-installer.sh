@@ -24,6 +24,7 @@ echo If it fails! You can retry or contact me for help
 
 	pkg install nano -y
 }
+echo checking sensors......
 {
 	termux-sensor -all
 	git clone https://www.    github.com/Sup3r-Us3r/Hashcode.git
