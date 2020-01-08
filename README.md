@@ -3,4 +3,5 @@
 ## Steps to use the installer : ##
 ## 1. type pkg install git ##
 ## 2. type cat commands.txt ##
-## 3. type bash auto-installer.sh ##
+## 3. type chmod 777 auto-installer.sh ##
+## 4. type ./auto-installer.sh and hit enter ##
