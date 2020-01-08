@@ -5,3 +5,8 @@
 ## 2. type cat commands.txt ##
 ## 3. type chmod 777 auto-installer.sh ##
 ## 4. type ./auto-installer.sh and hit enter ##
+
+##Update! The auto-installer has been upgraded. And the commands.txt has been newly written. It also contains a bonus!##
+##There will be another update soon!(probably march 2020)##
+Regards
+-Your pal Shasank 🦅🦅.
